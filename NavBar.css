@@ -1,0 +1,25 @@
+.nav{
+    background-color: black;
+    color:white;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:10px;
+    left:325px;
+    gap:10px;
+     border-radius: 12px;
+}
+ol>li{
+    list-style-type: none;
+}
+.head{
+    text-align: center;
+}
+.div{
+    width:800px;
+    gap:20px;
+    background-color: red;
+    position: relative;
+   
+}
