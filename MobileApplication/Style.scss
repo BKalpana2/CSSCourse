@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+
+body {
+background: #080808;
+color: white;
+font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+background: rgba(8, 8, 8, 0.96);
+padding: 18px 0;
+}
+
+.navbar-brand span,
+.footer-logo span {
+color: #a855f7;
+}
+
+.nav-link {
+color: white !important;
+margin: 0 10px;
+}
+
+.nav-link:hover {
+color: #a855f7 !important;
+}
+
+.buy-btn {
+background: #a855f7;
+color: white;
+border-radius: 25px;
+padding: 9px 25px;
+}
+
+.buy-btn:hover {
+background: #9333ea;
+color: white;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+min-height: 100vh;
+display: flex;
+align-items: center;
+padding: 120px 0 70px;
+background: radial-gradient(circle at 80% 50%, #30134b, #080808 55%);
+}
+
+.highlight {
+color: #c084fc;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+.hero-content h1 {
+font-size: clamp(42px, 6vw, 70px);
+font-weight: 800;
+margin: 20px 0;
+}
+
+.hero-content h1 span,
+.section-heading h2 span {
+color: #a855f7;
+}
+
+.hero-description {
+color: #bdbdbd;
+line-height: 1.8;
+max-width: 480px;
+margin-bottom: 30px;
+}
+
+.explore-btn {
+background: #a855f7;
+color: white;
+border-radius: 30px;
+padding: 12px 25px;
+margin-right: 10px;
+}
+
+.explore-btn:hover {
+background: #9333ea;
+color: white;
+}
+
+.learn-btn {
+border: 1px solid white;
+color: white;
+border-radius: 30px;
+padding: 12px 25px;
+}
+
+.learn-btn:hover {
+background: white;
+color: black;
+}
+
+.hero-image {
+max-height: 500px;
+object-fit: contain;
+filter: drop-shadow(0 0 30px #a855f755);
+}
+
+/* COMMON SECTION */
+
+.features-section,
+.spec-section,
+.gallery-section {
+padding: 100px 0;
+}
+
+.section-heading h2 {
+font-size: 38px;
+font-weight: bold;
+margin: 15px 0;
+}
+
+.section-heading > p:last-child {
+color: #aaa;
+}
+
+/* FEATURES */
+
+.feature-card {
+background: #151515;
+border: 1px solid #292929;
+padding: 35px 20px;
+text-align: center;
+border-radius: 15px;
+height: 100%;
+transition: 0.3s;
+}
+
+.feature-card:hover {
+transform: translateY(-10px);
+border-color: #a855f7;
+}
+
+.feature-card i {
+font-size: 45px;
+color: #a855f7;
+}
+
+.feature-card h4 {
+margin: 20px 0 12px;
+}
+
+.feature-card p {
+color: #aaa;
+line-height: 1.7;
+}
+
+/* SPECIFICATIONS */
+
+.spec-section {
+background: #111;
+}
+
+.spec-card {
+background: #1a1a1a;
+padding: 25px;
+border-radius: 15px;
+}
+
+.spec-row {
+display: flex;
+justify-content: space-between;
+padding: 20px 10px;
+border-bottom: 1px solid #393939;
+gap: 15px;
+}
+
+.spec-row:last-child {
+border: none;
+}
+
+.spec-row span {
+color: #aaa;
+}
+
+.spec-row strong {
+text-align: right;
+}
+
+/* GALLERY */
+
+.gallery-img {
+width: 100%;
+height: 350px;
+object-fit: cover;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.gallery-img:hover {
+transform: scale(1.03);
+}
+
+/* FOOTER */
+
+footer {
+background: #111;
+padding: 65px 0 20px;
+}
+
+.footer-logo {
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+footer p {
+color: #aaa;
+line-height: 1.8;
+}
+
+footer h5 {
+margin-bottom: 20px;
+}
+
+.footer-links {
+list-style: none;
+padding: 0;
+}
+
+.footer-links li {
+margin-bottom: 12px;
+}
+
+.footer-links a {
+color: #aaa;
+text-decoration: none;
+}
+
+.footer-links a:hover {
+color: #a855f7;
+}
+
+.social-icons a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+background: #252525;
+border-radius: 50%;
+color: white;
+margin-right: 10px;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.social-icons a:hover {
+background: #a855f7;
+}
+
+footer hr {
+border-color: #555;
+margin-top: 40px;
+}
+
+.copyright {
+font-size: 14px;
+margin-top: 20px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 991px) {
+
+.navbar-nav {
+    padding: 15px 0;
+    align-items: flex-start !important;
+}
+
+.navbar-nav .nav-item {
+    margin: 5px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-description {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-image {
+    margin-top: 40px;
+    max-height: 380px;
+}
+
+
+}
+
+@media (max-width: 576px) {
+
+.hero-content h1 {
+    font-size: 42px;
+}
+
+.section-heading h2 {
+    font-size: 29px;
+}
+
+.spec-row {
+    font-size: 13px;
+}
+
+.features-section,
+.spec-section,
+.gallery-section {
+    padding: 70px 0;
+}
+
+.gallery-img {
+    height: 280px;
+}
+
+
+}
