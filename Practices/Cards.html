@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        .navbar{
+            
+        }
+        .container{
+            display: flex;
+        }
+       .card{
+        background-color: yellow;
+        margin-top: 10px;
+        margin-left:20px ;
+        margin-right:10px;
+        padding: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s ease;
+        border: gray;
+       }
+       .card:hover{
+        transform: translateX(5px);
+        box-shadow: 0 8px 20px gray;
+       }
+       .navbar{
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        margin: 0px;
+        padding-top: 0px;   
+       }
+       .link{
+        color: black;
+       }
+    a{
+        text-decoration: none;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn{
+        background-color: rgba(0, 0, 0, 0.609);
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 8px 8px 0px 8px;
+        cursor: pointer;
+
+    }
+    </style>
+    </head>
+    <body>
+   <div class="header">
+         <h1 style="margin: 0px;">Nav Bar</h1>
+        <div class="navbar">
+         <a href="#" class="link">Home</a>
+        <a href="#" class="link">About Us</a>
+        <a href="#" class="link">Contact Us</a>
+        <a href="#" class="link">Subscribe</a>
+        <button class="btn">Download</button>
+    </div>
+   </div>
+   <hr>
+ <div class="container">
+       <div class="card">
+        <img src="./image.png" alt="" width="250px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing  elit. Corrupti dolorum dolore ducimus tenetur dicta  esse, totam expedita ipsum odio ut.</p>
+    </div>
+     <div class="card">
+        <img src="./image.png" alt="" width="250px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing  elit. Corrupti dolorum dolore ducimus tenetur dicta  esse, totam expedita ipsum odio ut.</p>
+    </div>
+     <div class="card">
+        <img src="./image.png" alt="" width="250px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing  elit. Corrupti dolorum dolore ducimus tenetur dicta  esse, totam expedita ipsum odio ut.</p>
+    </div>
+ </div>
+</body>
+</html>
