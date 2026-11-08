@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0f5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile {
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px gray;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    color: #008cba;
+    margin-bottom: 20px;
+}
+
+.profile p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    margin-bottom: 15px;
+}
+
+.skills {
+    margin-bottom: 25px;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #dff3ff;
+    color: #0077aa;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #005f80;
+}
